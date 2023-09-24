@@ -74,3 +74,16 @@ Temos uma base de dados de uma pesquisa sobre saúde mental, temos 27 colunas qu
 
 Entender sobre a base de dados e aprimorar os conhecimentos em Python e Data Science, visando um aprendizado em Inteligência Artificial.
 
+## Analise:
+
+
+```python
+import pandas as pd
+
+df = pd.read_csv('survey.csv')
+print(df.shape)  # (1259 linhas, 27 colunas)
+print(df.head())  # 5 primeiras linhas
+```
+
+Dessa forma podemos ver que temos 1259 linhas e 27 colunas, e que as 5 primeiras linhas são as que estão sendo mostradas. Além disso, podemos concluir inicialmente que o genêro com maior frequência é o masculino, e que a idade média é de 32 anos.
+
